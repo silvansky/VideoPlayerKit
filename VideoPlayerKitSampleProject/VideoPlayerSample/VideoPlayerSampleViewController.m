@@ -56,7 +56,7 @@
 - (void)loadView
 {
     self.videoPlayerSampleView = [[VideoPlayerSampleView alloc] initWithTopView:nil videoPlayerView:self.videoPlayerViewController.view];
-    [self.videoPlayerSampleView.playButton addTarget:self action:@selector(playVideo) forControlEvents:UIControlEventTouchUpInside];
+//    [self.videoPlayerSampleView.playButton addTarget:self action:@selector(playVideo) forControlEvents:UIControlEventTouchUpInside];
     [self setView:self.videoPlayerSampleView];
 }
 
@@ -66,7 +66,7 @@
     
 //    [self.view addSubview:self.videoPlayerViewController.view];
     
-    [self.videoPlayerViewController playVideoWithTitle:@"Title" URL:url videoID:nil shareURL:nil isStreaming:NO playInFullScreen:NO];
+    [self.videoPlayerViewController playVideoWithTitle:@"D -> C" URL:url videoID:nil shareURL:nil isStreaming:NO playInFullScreen:NO];
 }
 
 - (void)viewDidLoad
@@ -74,6 +74,7 @@
     [super viewDidLoad];
     
     self.topView.frame = CGRectMake(0, [[UIApplication sharedApplication] statusBarFrame].size.height, self.view.bounds.size.width, 44);
+	[self playVideo];
 }
 
 @end

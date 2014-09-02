@@ -19,9 +19,12 @@
 		self.videoPlayerView = videoPlayerView;
 		[self addSubview:videoPlayerView];
 
-		self.playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        [self.playButton setTitle:@"Play Video" forState:UIControlStateNormal];
-        [self addSubview:self.playButton];
+//		self.playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//        [self.playButton setTitle:@"Play Video" forState:UIControlStateNormal];
+//        [self addSubview:self.playButton];
+
+		self.topView = topView;
+		[self addSubview:topView];
 
 		self.backgroundColor = [UIColor whiteColor];
     }
