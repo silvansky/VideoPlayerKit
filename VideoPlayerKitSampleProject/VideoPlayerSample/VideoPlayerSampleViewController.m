@@ -27,11 +27,13 @@
         [button setTitle:@"Full Screen!" forState:UIControlStateNormal];
         [_topView addSubview:button];
 
-		self.videoPlayerViewController = [VideoPlayerKit videoPlayerWithContainingViewController:self optionalTopView:_topView hideTopViewWithControls:YES];
+		self.videoPlayerViewController = [VideoPlayerKit videoPlayerWithContainingViewController:self optionalTopView:nil hideTopViewWithControls:YES];
 		// Need to set edge inset if top view is inserted
 		[self.videoPlayerViewController setControlsEdgeInsets:UIEdgeInsetsMake(self.topView.frame.size.height, 0, 0, 0)];
 		self.videoPlayerViewController.delegate = self;
 		self.videoPlayerViewController.allowPortraitFullscreen = YES;
+		self.videoPlayerViewController.videoPlayerView.fullScreenButton.hidden = YES;
+		self.videoPlayerViewController.videoPlayerView.shareButton.hidden = YES;
     }
     return self;
 }
@@ -44,6 +46,11 @@
     } else {
         [self.videoPlayerViewController minimizeVideo];
     }
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+	return YES;
 }
 
 - (void)loadView
