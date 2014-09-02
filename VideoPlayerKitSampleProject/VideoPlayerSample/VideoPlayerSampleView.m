@@ -15,6 +15,8 @@
 - (id)initWithTopView:(UIView *)topView videoPlayerView:(UIView *)videoPlayerView
 {
     if ((self = [super init])) {
+		self.videoPlayerView = videoPlayerView;
+		[self addSubview:videoPlayerView];
         self.playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [self.playButton setTitle:@"Play Video" forState:UIControlStateNormal];
         [self addSubview:self.playButton];
@@ -32,7 +34,7 @@
                                        (bounds.size.height - 50)/2.0,
                                        100,
                                        50);
-    
+	self.videoPlayerView.frame = CGRectMake(0.f, 0.f, bounds.size.width, bounds.size.height / 3.f);
 }
 
 @end
