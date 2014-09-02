@@ -19,6 +19,17 @@
 		76D67AF5165419CA00CAC69A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D67AF4165419CA00CAC69A /* Default@2x.png */; };
 		76D67AF7165419CA00CAC69A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D67AF6165419CA00CAC69A /* Default-568h@2x.png */; };
 		76D67B0216541A0200CAC69A /* VideoPlayerSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D67B0116541A0200CAC69A /* VideoPlayerSampleViewController.m */; };
+		A3E2391819B5EF4200B6CC94 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2391719B5EF4200B6CC94 /* libsqlite3.dylib */; };
+		A3E2391A19B5EF4A00B6CC94 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2391919B5EF4A00B6CC94 /* Accounts.framework */; };
+		A3E2391C19B5EF4F00B6CC94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2391B19B5EF4F00B6CC94 /* AVFoundation.framework */; };
+		A3E2391F19B5EF5900B6CC94 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2391D19B5EF5900B6CC94 /* CoreMedia.framework */; };
+		A3E2392019B5EF5900B6CC94 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2391E19B5EF5900B6CC94 /* MediaPlayer.framework */; };
+		A3E2392219B5EF6500B6CC94 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392119B5EF6500B6CC94 /* AdSupport.framework */; };
+		A3E2392419B5EF6C00B6CC94 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392319B5EF6C00B6CC94 /* MessageUI.framework */; };
+		A3E2392619B5EF7300B6CC94 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392519B5EF7300B6CC94 /* Security.framework */; };
+		A3E2392819B5EF7B00B6CC94 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392719B5EF7B00B6CC94 /* QuartzCore.framework */; };
+		A3E2392A19B5EF8A00B6CC94 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392919B5EF8A00B6CC94 /* Social.framework */; };
+		A3E2392C19B5EF9100B6CC94 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E2392B19B5EF9100B6CC94 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +51,17 @@
 		76D67AF6165419CA00CAC69A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76D67B0016541A0200CAC69A /* VideoPlayerSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerSampleViewController.h; sourceTree = "<group>"; };
 		76D67B0116541A0200CAC69A /* VideoPlayerSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerSampleViewController.m; sourceTree = "<group>"; };
+		A3E2391719B5EF4200B6CC94 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A3E2391919B5EF4A00B6CC94 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A3E2391B19B5EF4F00B6CC94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3E2391D19B5EF5900B6CC94 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A3E2391E19B5EF5900B6CC94 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A3E2392119B5EF6500B6CC94 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A3E2392319B5EF6C00B6CC94 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A3E2392519B5EF7300B6CC94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A3E2392719B5EF7B00B6CC94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3E2392919B5EF8A00B6CC94 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A3E2392B19B5EF9100B6CC94 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E2392C19B5EF9100B6CC94 /* Twitter.framework in Frameworks */,
+				A3E2392A19B5EF8A00B6CC94 /* Social.framework in Frameworks */,
+				A3E2392819B5EF7B00B6CC94 /* QuartzCore.framework in Frameworks */,
+				A3E2392619B5EF7300B6CC94 /* Security.framework in Frameworks */,
+				A3E2392419B5EF6C00B6CC94 /* MessageUI.framework in Frameworks */,
+				A3E2392219B5EF6500B6CC94 /* AdSupport.framework in Frameworks */,
+				A3E2391F19B5EF5900B6CC94 /* CoreMedia.framework in Frameworks */,
+				A3E2392019B5EF5900B6CC94 /* MediaPlayer.framework in Frameworks */,
+				A3E2391C19B5EF4F00B6CC94 /* AVFoundation.framework in Frameworks */,
+				A3E2391A19B5EF4A00B6CC94 /* Accounts.framework in Frameworks */,
+				A3E2391819B5EF4200B6CC94 /* libsqlite3.dylib in Frameworks */,
 				76D67AE1165419CA00CAC69A /* UIKit.framework in Frameworks */,
 				76D67AE3165419CA00CAC69A /* Foundation.framework in Frameworks */,
 				76D67AE5165419CA00CAC69A /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +110,17 @@
 		76D67ADF165419CA00CAC69A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3E2392B19B5EF9100B6CC94 /* Twitter.framework */,
+				A3E2392919B5EF8A00B6CC94 /* Social.framework */,
+				A3E2392719B5EF7B00B6CC94 /* QuartzCore.framework */,
+				A3E2392519B5EF7300B6CC94 /* Security.framework */,
+				A3E2392319B5EF6C00B6CC94 /* MessageUI.framework */,
+				A3E2392119B5EF6500B6CC94 /* AdSupport.framework */,
+				A3E2391D19B5EF5900B6CC94 /* CoreMedia.framework */,
+				A3E2391E19B5EF5900B6CC94 /* MediaPlayer.framework */,
+				A3E2391B19B5EF4F00B6CC94 /* AVFoundation.framework */,
+				A3E2391919B5EF4A00B6CC94 /* Accounts.framework */,
+				A3E2391719B5EF4200B6CC94 /* libsqlite3.dylib */,
 				76D67AE0165419CA00CAC69A /* UIKit.framework */,
 				76D67AE2165419CA00CAC69A /* Foundation.framework */,
 				76D67AE4165419CA00CAC69A /* CoreGraphics.framework */,
@@ -140,7 +184,7 @@
 		76D67AD3165419CA00CAC69A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = IGN;
 			};
 			buildConfigurationList = 76D67AD6165419CA00CAC69A /* Build configuration list for PBXProject "VideoPlayerSample" */;
@@ -240,6 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,9 +324,13 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayerSample/VideoPlayerSample-Prefix.pch";
-				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"${SRCROOT}/Pods/Headers",
+				);
 				INFOPLIST_FILE = "VideoPlayerSample/VideoPlayerSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -299,9 +348,13 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayerSample/VideoPlayerSample-Prefix.pch";
-				HEADER_SEARCH_PATHS = "${PODS_HEADERS_SEARCH_PATHS}";
+				HEADER_SEARCH_PATHS = (
+					"${inherited}",
+					"${SRCROOT}/Pods/Headers",
+				);
 				INFOPLIST_FILE = "VideoPlayerSample/VideoPlayerSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

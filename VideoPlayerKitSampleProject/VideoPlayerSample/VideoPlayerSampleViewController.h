@@ -1,7 +1,7 @@
 /* Copyright (C) 2012 IGN Entertainment, Inc. */
 
 #import <UIKit/UIKit.h>
-#import "VideoPlayerKit.h"
+#import <VideoPlayerKit/VideoPlayerKit.h>
 
 @interface VideoPlayerSampleViewController : UIViewController <VideoPlayerDelegate>
 
