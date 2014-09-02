@@ -2,7 +2,6 @@
 
 #import "VideoPlayerKit.h"
 #import "FullScreenViewController.h"
-#import "ShareThis.h"
 
 NSString * const kVideoPlayerVideoChangedNotification = @"VideoPlayerVideoChangedNotification";
 NSString * const kVideoPlayerWillHideControlsNotification = @"VideoPlayerWillHideControlsNotitication";
@@ -174,7 +173,6 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
 - (void)presentShareOptions
 {
     showShareOptions = NO;
-    [ShareThis showShareOptionsToShareUrl:[_currentVideoInfo objectForKey:@"shareURL"] title:[_currentVideoInfo objectForKey:@"title"] image:nil onViewController:[[[UIApplication sharedApplication] keyWindow] rootViewController] forTypeOfContent:STContentTypeVideo];
 }
 
 - (void)shareButtonHandler
