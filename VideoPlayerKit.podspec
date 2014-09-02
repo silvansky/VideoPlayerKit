@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
   s.author   = { 'Aung Thar' => 'samuraizack@gmail.com',
                  'Grant Bartone'  => 'gbartone@ign.com',
 		 'Alex Ivlev'  => 'aivlev@ign.com',
-		 'Brad Taylor'  => 'brtaylor@ign.com' }
+		 'Brad Taylor'  => 'brtaylor@ign.com',
+     'Valentine Silvansky' => 'v.silvansky@gmail.com' }
 
-  s.source   = { :git => 'https://github.com/ign/VideoPlayerKit.git', :tag => '1.0.0' }
+  s.source   = { :git => 'git@github.com:silvansky/VideoPlayerKit.git', :tag => '1.0.0' }
 
   s.description  = 'We know how hard making a custom video player is. That is why ' \
 		    'we created VideoPlayerKit. Using VideoPlayerKit is easy. All ' \
