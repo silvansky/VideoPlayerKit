@@ -14,13 +14,16 @@
 
 - (id)initWithTopView:(UIView *)topView videoPlayerView:(UIView *)videoPlayerView
 {
-    if ((self = [super init])) {
+    if ((self = [super init]))
+	{
 		self.videoPlayerView = videoPlayerView;
 		[self addSubview:videoPlayerView];
-        self.playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+
+		self.playButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [self.playButton setTitle:@"Play Video" forState:UIControlStateNormal];
         [self addSubview:self.playButton];
-        self.backgroundColor = [UIColor whiteColor];
+
+		self.backgroundColor = [UIColor whiteColor];
     }
     
     return self;
@@ -34,7 +37,7 @@
                                        (bounds.size.height - 50)/2.0,
                                        100,
                                        50);
-	self.videoPlayerView.frame = CGRectMake(0.f, 0.f, bounds.size.width, bounds.size.height / 3.f);
+	self.videoPlayerView.frame = bounds;
 }
 
 @end
