@@ -214,7 +214,10 @@
                                      PLAYER_CONTROL_BAR_HEIGHT);
     
     [_videoScrubber setFrame:scrubberRect];
-    [_progressView setFrame:[_videoScrubber trackRectForBounds:scrubberRect]];
+	CGRect pvFrame = [_videoScrubber trackRectForBounds:scrubberRect];
+	pvFrame.origin.y = pvFrame.origin.y + 3;
+	[_progressView setFrame:pvFrame];
+
 }
 
 - (void)setTitle:(NSString *)title

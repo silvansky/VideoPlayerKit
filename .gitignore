@@ -1,3 +1,12 @@
 .DS_Store
+xcuserdata/*
+Pods/
 *.xcuserdatad
-Pods
+FauxPasConfig
+build/
+DerivedData/
+*.swp
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
