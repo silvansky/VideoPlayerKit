@@ -13,6 +13,7 @@
 @property (readwrite) CGFloat padding;
 @property (readonly, strong) UILabel *titleLabel;
 @property (readonly, strong) AirplayActiveView *airplayIsActiveView;
+@property (readonly, strong) MPVolumeView *volumeView;
 @property (readonly, strong) UIView *playerControlBar;
 @property (readonly, strong) UIButton *playPauseButton;
 @property (readonly, strong) UIButton *fullScreenButton;
