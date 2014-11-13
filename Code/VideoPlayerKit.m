@@ -260,6 +260,10 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
 
 - (void)launchFullScreen
 {
+	if (!self.fullScreenSupported)
+	{
+		return;
+	}
     if (!self.fullScreenModeToggled) {
         self.fullScreenModeToggled = YES;
         

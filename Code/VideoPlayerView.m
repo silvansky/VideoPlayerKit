@@ -71,7 +71,7 @@
         _volumeView = [[MPVolumeView alloc] init];
         [_volumeView setShowsRouteButton:YES];
         [_volumeView setShowsVolumeSlider:NO];
-        //[_playerControlBar addSubview:_volumeView];
+        [_playerControlBar addSubview:_volumeView];
         
         // Listen to alpha changes to know when other routes are available
         for (UIButton *button in [_volumeView subviews]) {
@@ -214,10 +214,7 @@
                                      PLAYER_CONTROL_BAR_HEIGHT);
     
     [_videoScrubber setFrame:scrubberRect];
-	CGRect pvFrame = [_videoScrubber trackRectForBounds:scrubberRect];
-	pvFrame.origin.y = pvFrame.origin.y + 3;
-	[_progressView setFrame:pvFrame];
-
+    [_progressView setFrame:[_videoScrubber trackRectForBounds:scrubberRect]];
 }
 
 - (void)setTitle:(NSString *)title

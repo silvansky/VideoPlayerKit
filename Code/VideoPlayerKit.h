@@ -15,6 +15,7 @@
 @property (nonatomic) BOOL allowPortraitFullscreen;
 @property (nonatomic) UIEdgeInsets controlsEdgeInsets;
 @property (readwrite, strong) AVPlayer *videoPlayer;
+@property (nonatomic, assign) BOOL fullScreenSupported;
 
 - (void)playVideoWithTitle:(NSString *)title URL:(NSURL *)url videoID:(NSString *)videoID shareURL:(NSURL *)shareURL isStreaming:(BOOL)streaming playInFullScreen:(BOOL)playInFullScreen;
 - (void)syncFullScreenButton:(UIInterfaceOrientation)toInterfaceOrientation;
